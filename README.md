@@ -4,6 +4,38 @@ This project demonstrates a basic Hardhat use case. It comes with a sample contr
 
 Try running some of the following tasks:
 
+```bash
+yarn install
+```
+
+Run tests and coverage
+
+```bash
+yarn test
+yarn coverage
+```
+
+Create doc
+
+```bash
+hardhat docgen
+```
+
+Linting
+
+```bash
+yarn lint
+yarn lint:fix
+```
+
+Formatting
+
+```bash
+yarn format
+```
+
+Hardhat
+
 ```shell
 npx hardhat help
 npx hardhat test
